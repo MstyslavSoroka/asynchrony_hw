@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    flex-direction: column;
+}
+
+.box,
+.click {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin: 20px 0;
+    border-radius: 10px;
+    transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.box {
+    background: blue;
+}
+
+.click {
+    border-radius: 50%;
+    background: crimson;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+input {
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span {
+    font-weight: bold;
+    color: #007bff;
+}
